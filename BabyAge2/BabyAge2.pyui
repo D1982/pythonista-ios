@@ -1,0 +1,205 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 264}, {320, 216}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "flex" : "WLR",
+          "action" : "datepicker_action",
+          "enabled" : true,
+          "mode" : 2,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "F03CF81C-AE52-4C2A-BCAF-E6E5D170B2D1",
+          "name" : "datepicker"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 113}, {75, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Week:",
+          "alignment" : "right",
+          "uuid" : "C4D5DE27-4336-4955-ADA1-5871050B996F",
+          "name" : "label1",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 153}, {75, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Month:",
+          "alignment" : "right",
+          "uuid" : "DCB1F4C3-43E9-4988-82E7-C73967270813",
+          "name" : "label2",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{97, 113}, {69, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "",
+          "placeholder" : "...",
+          "enabled" : true,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_style" : 3,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "A6380EF7-CEF8-4EED-A533-7F1AB0FB083E",
+          "alignment" : "left",
+          "name" : "weeks",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{97, 153}, {69, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "",
+          "placeholder" : "...",
+          "enabled" : true,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_style" : 3,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "A53DF2AB-BE39-466C-B139-B256F4A48A6F",
+          "alignment" : "left",
+          "name" : "months",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 70}, {300, 35}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Baby Alter berechnen",
+          "alignment" : "left",
+          "uuid" : "8CE1B9B0-D1EE-44A3-AEF0-4C1371A37CD6",
+          "name" : "label3",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 193}, {75, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "",
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "enabled" : true,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "text" : "Year:",
+          "alignment" : "right",
+          "uuid" : "BA0F13CB-054D-4B23-AFE8-EEDFDCA9605E",
+          "name" : "label4",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{97, 193}, {69, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "flex" : "",
+          "placeholder" : "...",
+          "enabled" : true,
+          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "border_style" : 3,
+          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "uuid" : "2530FE59-A75C-448D-BAA7-F7FE99560274",
+          "alignment" : "left",
+          "name" : "years",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 0}, {194, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_name" : "<System-Bold>",
+          "frame" : "{{85, 224}, {150, 32}}",
+          "uuid" : "75F96F3C-FB83-4C60-8C15-8D59A925B8A5",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Baby Age",
+          "font_size" : 18,
+          "name" : "label5"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{198, 113}, {100, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "button_smilla_action",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Smilla",
+          "uuid" : "62A467F6-71CD-401F-9B6A-71C0C27BACFF",
+          "class" : "Button",
+          "name" : "button_smilla",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {320, 480}}",
+    "class" : "View",
+    "attributes" : {
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Baby Age",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
