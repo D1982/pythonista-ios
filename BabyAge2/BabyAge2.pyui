@@ -176,15 +176,15 @@
         "nodes" : [
 
         ],
-        "frame" : "{{198, 113}, {100, 33}}",
+        "frame" : "{{198, 113}, {100, 32}}",
         "class" : "Button",
         "attributes" : {
-          "action" : "button_smilla_action",
+          "action" : "button_child1_action",
           "frame" : "{{120, 224}, {80, 32}}",
-          "title" : "Smilla",
+          "title" : "Child1",
           "uuid" : "62A467F6-71CD-401F-9B6A-71C0C27BACFF",
           "class" : "Button",
-          "name" : "button_smilla",
+          "name" : "button_child1",
           "font_size" : 15
         },
         "selected" : true
@@ -193,11 +193,11 @@
     "frame" : "{{0, 0}, {320, 480}}",
     "class" : "View",
     "attributes" : {
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "Baby Age",
       "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "name" : "Baby Age",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false
