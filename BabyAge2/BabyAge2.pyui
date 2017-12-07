@@ -5,7 +5,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{0, 264}, {320, 216}}",
+        "frame" : "{{0, 264}, {329, 216}}",
         "class" : "DatePicker",
         "attributes" : {
           "flex" : "WLR",
@@ -107,7 +107,7 @@
           "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "text" : "Baby Alter berechnen",
+          "text" : "Baby Alter berechnen:",
           "alignment" : "left",
           "uuid" : "8CE1B9B0-D1EE-44A3-AEF0-4C1371A37CD6",
           "name" : "label3",
@@ -158,24 +158,6 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 0}, {194, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "font_name" : "<System-Bold>",
-          "frame" : "{{85, 224}, {150, 32}}",
-          "uuid" : "75F96F3C-FB83-4C60-8C15-8D59A925B8A5",
-          "class" : "Label",
-          "alignment" : "center",
-          "text" : "Baby Age",
-          "font_size" : 18,
-          "name" : "label5"
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
         "frame" : "{{198, 113}, {100, 32}}",
         "class" : "Button",
         "attributes" : {
@@ -187,17 +169,34 @@
           "name" : "button_child1",
           "font_size" : 15
         },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{198, 153}, {100, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "button_child2_action",
+          "frame" : "{{120, 224}, {80, 32}}",
+          "title" : "Child2",
+          "uuid" : "19DF9B9A-C6AF-4AE4-B7C1-3F3641DFBC8D",
+          "class" : "Button",
+          "name" : "button_child2",
+          "font_size" : 15
+        },
         "selected" : true
       }
     ],
-    "frame" : "{{0, 0}, {320, 480}}",
+    "frame" : "{{0, 0}, {329, 474}}",
     "class" : "View",
     "attributes" : {
-      "name" : "Baby Age",
-      "enabled" : true,
-      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "Baby Age",
       "flex" : ""
     },
     "selected" : false
