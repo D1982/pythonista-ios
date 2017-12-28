@@ -5,7 +5,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{0, 264}, {329, 216}}",
+        "frame" : "{{14, 249}, {336, 147}}",
         "class" : "DatePicker",
         "attributes" : {
           "flex" : "WLR",
@@ -22,7 +22,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 113}, {75, 32}}",
+        "frame" : "{{14, 46}, {70, 32}}",
         "class" : "Label",
         "attributes" : {
           "flex" : "",
@@ -30,7 +30,7 @@
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Week:",
-          "alignment" : "right",
+          "alignment" : "left",
           "uuid" : "C4D5DE27-4336-4955-ADA1-5871050B996F",
           "name" : "label1",
           "font_size" : 17
@@ -41,7 +41,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 153}, {75, 32}}",
+        "frame" : "{{14, 86}, {70, 32}}",
         "class" : "Label",
         "attributes" : {
           "flex" : "",
@@ -49,7 +49,7 @@
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Month:",
-          "alignment" : "right",
+          "alignment" : "left",
           "uuid" : "DCB1F4C3-43E9-4988-82E7-C73967270813",
           "name" : "label2",
           "font_size" : 17
@@ -60,7 +60,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{97, 113}, {69, 32}}",
+        "frame" : "{{97, 46}, {70, 32}}",
         "class" : "TextField",
         "attributes" : {
           "flex" : "",
@@ -80,7 +80,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{97, 153}, {69, 32}}",
+        "frame" : "{{97, 86}, {70, 32}}",
         "class" : "TextField",
         "attributes" : {
           "flex" : "",
@@ -100,26 +100,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 70}, {300, 35}}",
-        "class" : "Label",
-        "attributes" : {
-          "flex" : "",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "enabled" : true,
-          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "text" : "Baby Alter berechnen:",
-          "alignment" : "left",
-          "uuid" : "8CE1B9B0-D1EE-44A3-AEF0-4C1371A37CD6",
-          "name" : "label3",
-          "font_size" : 17
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{14, 193}, {75, 32}}",
+        "frame" : "{{14, 126}, {70, 32}}",
         "class" : "Label",
         "attributes" : {
           "flex" : "",
@@ -127,7 +108,7 @@
           "enabled" : true,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "text" : "Year:",
-          "alignment" : "right",
+          "alignment" : "left",
           "uuid" : "BA0F13CB-054D-4B23-AFE8-EEDFDCA9605E",
           "name" : "label4",
           "font_size" : 17
@@ -138,7 +119,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{97, 193}, {69, 32}}",
+        "frame" : "{{97, 126}, {70, 32}}",
         "class" : "TextField",
         "attributes" : {
           "flex" : "",
@@ -158,7 +139,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{198, 113}, {100, 32}}",
+        "frame" : "{{14, 404}, {105, 32}}",
         "class" : "Button",
         "attributes" : {
           "action" : "button_child1_action",
@@ -166,6 +147,7 @@
           "title" : "Child1",
           "uuid" : "62A467F6-71CD-401F-9B6A-71C0C27BACFF",
           "class" : "Button",
+          "font_bold" : true,
           "name" : "button_child1",
           "font_size" : 15
         },
@@ -175,7 +157,7 @@
         "nodes" : [
 
         ],
-        "frame" : "{{198, 153}, {100, 32}}",
+        "frame" : "{{14, 444}, {105, 32}}",
         "class" : "Button",
         "attributes" : {
           "action" : "button_child2_action",
@@ -183,20 +165,111 @@
           "title" : "Child2",
           "uuid" : "19DF9B9A-C6AF-4AE4-B7C1-3F3641DFBC8D",
           "class" : "Button",
+          "font_bold" : true,
           "name" : "button_child2",
           "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{127, 404}, {105, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "button_appex_action",
+          "frame" : "{{125, 221}, {80, 32}}",
+          "title" : "AppEx",
+          "uuid" : "E46B21EC-5B35-4822-A9A6-663D64F43D8A",
+          "class" : "Button",
+          "font_bold" : true,
+          "border_color" : "RGBA(0.344569,0.344569,0.344569,1.000000)",
+          "name" : "button_appex",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 166}, {336, 75}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 17,
+          "alignment" : "left",
+          "frame" : "{{90, 221}, {150, 32}}",
+          "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+          "class" : "Label",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "number_of_lines" : 3,
+          "uuid" : "78A44C30-9638-4AD0-BE32-22EBAE8354B0",
+          "text" : "",
+          "name" : "label_msg",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 484}, {105, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "button_child3_action",
+          "frame" : "{{125, 221}, {80, 32}}",
+          "title" : "Child3",
+          "uuid" : "AFD561E4-D531-4688-8662-B6F90FC76164",
+          "class" : "Button",
+          "font_bold" : true,
+          "name" : "button_child3",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{14, 6}, {336, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label_header",
+          "frame" : "{{90, 221}, {150, 32}}",
+          "uuid" : "75586663-FB8E-47E3-BA92-FBFC6C350C13",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Calculated Age:",
+          "font_size" : 18,
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{190, 46}, {112, 84}}",
+        "class" : "ImageView",
+        "attributes" : {
+          "frame" : "{{128, 254}, {100, 100}}",
+          "class" : "ImageView",
+          "name" : "Image",
+          "uuid" : "11C7768A-44C2-40C0-9609-ECCBA1D938A2"
         },
         "selected" : true
       }
     ],
-    "frame" : "{{0, 0}, {329, 474}}",
+    "frame" : "{{0, 0}, {356, 608}}",
     "class" : "View",
     "attributes" : {
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "enabled" : true,
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "name" : "Baby Age",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "Baby Age Calculator",
       "flex" : ""
     },
     "selected" : false
