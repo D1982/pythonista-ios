@@ -1,12 +1,12 @@
 import ui
 import datetime
+import clipboard
+import appex
 from dateutil import rrule
 from enum import Enum
-# Photo analysis
-import appex
 from PIL import Image
 from PIL.ExifTags import TAGS
-import clipboard
+
 
 
 # Customization: Add your names here

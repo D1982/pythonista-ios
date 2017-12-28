@@ -241,7 +241,7 @@
           "uuid" : "75586663-FB8E-47E3-BA92-FBFC6C350C13",
           "class" : "Label",
           "alignment" : "left",
-          "text" : "Calculated Age:",
+          "text" : "Calculated Baby Age:",
           "font_size" : 18,
           "font_name" : "<System-Bold>"
         },
