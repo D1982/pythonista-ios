@@ -5,16 +5,16 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 249}, {336, 147}}",
+        "frame" : "{{7, 377}, {238, 147}}",
         "class" : "DatePicker",
         "attributes" : {
-          "flex" : "WLR",
-          "action" : "datepicker_action",
+          "flex" : "R",
+          "action" : "datepicker_dob_action",
           "enabled" : true,
           "mode" : 2,
           "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
           "uuid" : "F03CF81C-AE52-4C2A-BCAF-E6E5D170B2D1",
-          "name" : "datepicker"
+          "name" : "datepicker_dob"
         },
         "selected" : false
       },
@@ -22,132 +22,18 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 46}, {70, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "flex" : "",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "enabled" : true,
-          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "text" : "Week:",
-          "alignment" : "left",
-          "uuid" : "C4D5DE27-4336-4955-ADA1-5871050B996F",
-          "name" : "label1",
-          "font_size" : 17
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{14, 86}, {70, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "flex" : "",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "enabled" : true,
-          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "text" : "Month:",
-          "alignment" : "left",
-          "uuid" : "DCB1F4C3-43E9-4988-82E7-C73967270813",
-          "name" : "label2",
-          "font_size" : 17
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{97, 46}, {70, 32}}",
-        "class" : "TextField",
-        "attributes" : {
-          "flex" : "",
-          "placeholder" : "...",
-          "enabled" : true,
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "border_style" : 3,
-          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "uuid" : "A6380EF7-CEF8-4EED-A533-7F1AB0FB083E",
-          "alignment" : "left",
-          "name" : "weeks",
-          "font_size" : 17
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{97, 86}, {70, 32}}",
-        "class" : "TextField",
-        "attributes" : {
-          "flex" : "",
-          "placeholder" : "...",
-          "enabled" : true,
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "border_style" : 3,
-          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "uuid" : "A53DF2AB-BE39-466C-B139-B256F4A48A6F",
-          "alignment" : "left",
-          "name" : "months",
-          "font_size" : 17
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{14, 126}, {70, 32}}",
-        "class" : "Label",
-        "attributes" : {
-          "flex" : "",
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "enabled" : true,
-          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "text" : "Year:",
-          "alignment" : "left",
-          "uuid" : "BA0F13CB-054D-4B23-AFE8-EEDFDCA9605E",
-          "name" : "label4",
-          "font_size" : 17
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{97, 126}, {70, 32}}",
-        "class" : "TextField",
-        "attributes" : {
-          "flex" : "",
-          "placeholder" : "...",
-          "enabled" : true,
-          "text_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "border_style" : 3,
-          "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "uuid" : "2530FE59-A75C-448D-BAA7-F7FE99560274",
-          "alignment" : "left",
-          "name" : "years",
-          "font_size" : 17
-        },
-        "selected" : false
-      },
-      {
-        "nodes" : [
-
-        ],
-        "frame" : "{{14, 404}, {105, 32}}",
+        "frame" : "{{254, 377}, {100, 40}}",
         "class" : "Button",
         "attributes" : {
           "action" : "button_child1_action",
+          "border_width" : 1,
           "frame" : "{{120, 224}, {80, 32}}",
           "title" : "Child1",
           "uuid" : "62A467F6-71CD-401F-9B6A-71C0C27BACFF",
           "class" : "Button",
           "font_bold" : true,
+          "border_color" : "RGBA(0.752941,0.768627,0.780392,1.000000)",
+          "corner_radius" : 5,
           "name" : "button_child1",
           "font_size" : 15
         },
@@ -157,15 +43,18 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 444}, {105, 32}}",
+        "frame" : "{{254, 431}, {100, 40}}",
         "class" : "Button",
         "attributes" : {
           "action" : "button_child2_action",
+          "border_width" : 1,
           "frame" : "{{120, 224}, {80, 32}}",
           "title" : "Child2",
           "uuid" : "19DF9B9A-C6AF-4AE4-B7C1-3F3641DFBC8D",
           "class" : "Button",
           "font_bold" : true,
+          "corner_radius" : 5,
+          "border_color" : "RGBA(0.752941,0.768627,0.780392,1.000000)",
           "name" : "button_child2",
           "font_size" : 15
         },
@@ -175,17 +64,19 @@
         "nodes" : [
 
         ],
-        "frame" : "{{127, 404}, {105, 32}}",
+        "frame" : "{{249, 83}, {104, 32}}",
         "class" : "Button",
         "attributes" : {
-          "action" : "button_appex_action",
+          "border_width" : 1,
+          "action" : "button_pick_image_action",
           "frame" : "{{125, 221}, {80, 32}}",
-          "title" : "AppEx",
+          "title" : "Set Image",
           "uuid" : "E46B21EC-5B35-4822-A9A6-663D64F43D8A",
-          "class" : "Button",
+          "corner_radius" : 5,
           "font_bold" : true,
-          "border_color" : "RGBA(0.344569,0.344569,0.344569,1.000000)",
-          "name" : "button_appex",
+          "class" : "Button",
+          "border_color" : "RGBA(0.752941,0.768627,0.780392,1.000000)",
+          "name" : "button_pick_image",
           "font_size" : 15
         },
         "selected" : false
@@ -194,17 +85,17 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 166}, {336, 75}}",
+        "frame" : "{{6, 540}, {347, 70}}",
         "class" : "Label",
         "attributes" : {
           "font_size" : 17,
-          "alignment" : "left",
+          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
           "frame" : "{{90, 221}, {150, 32}}",
           "tint_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-          "class" : "Label",
-          "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-          "number_of_lines" : 3,
           "uuid" : "78A44C30-9638-4AD0-BE32-22EBAE8354B0",
+          "number_of_lines" : 3,
+          "class" : "Label",
+          "alignment" : "left",
           "text" : "",
           "name" : "label_msg",
           "font_name" : "<System>"
@@ -215,15 +106,18 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 484}, {105, 32}}",
+        "frame" : "{{254, 484}, {100, 40}}",
         "class" : "Button",
         "attributes" : {
           "action" : "button_child3_action",
+          "border_width" : 1,
           "frame" : "{{125, 221}, {80, 32}}",
           "title" : "Child3",
           "uuid" : "AFD561E4-D531-4688-8662-B6F90FC76164",
           "class" : "Button",
           "font_bold" : true,
+          "border_color" : "RGBA(0.752941,0.768627,0.780392,1.000000)",
+          "corner_radius" : 5,
           "name" : "button_child3",
           "font_size" : 15
         },
@@ -233,16 +127,17 @@
         "nodes" : [
 
         ],
-        "frame" : "{{14, 6}, {336, 32}}",
+        "frame" : "{{6, 6}, {165, 32}}",
         "class" : "Label",
         "attributes" : {
-          "name" : "label_header",
+          "font_size" : 18,
+          "text_color" : "RGBA(0.682353,0.180392,0.180392,1.000000)",
           "frame" : "{{90, 221}, {150, 32}}",
           "uuid" : "75586663-FB8E-47E3-BA92-FBFC6C350C13",
           "class" : "Label",
           "alignment" : "left",
-          "text" : "Calculated Baby Age:",
-          "font_size" : 18,
+          "text" : "Calculated age for:",
+          "name" : "label_header",
           "font_name" : "<System-Bold>"
         },
         "selected" : false
@@ -251,25 +146,178 @@
         "nodes" : [
 
         ],
-        "frame" : "{{190, 46}, {112, 84}}",
+        "frame" : "{{253, 171}, {112, 135}}",
         "class" : "ImageView",
         "attributes" : {
+          "border_width" : 1,
           "frame" : "{{128, 254}, {100, 100}}",
+          "border_color" : "RGBA(0.508715,0.508715,0.508715,1.000000)",
+          "corner_radius" : 0,
           "class" : "ImageView",
-          "name" : "Image",
-          "uuid" : "11C7768A-44C2-40C0-9609-ECCBA1D938A2"
+          "uuid" : "11C7768A-44C2-40C0-9609-ECCBA1D938A2",
+          "name" : "ImageView",
+          "image_name" : "iob:image_256"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{113, 131}, {241, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label_now_detail",
+          "text_color" : "RGBA(0.011765,0.356863,0.313726,1.000000)",
+          "frame" : "{{103, 288}, {150, 32}}",
+          "uuid" : "CCEC48AA-FF73-4C6A-9045-73A57CAB5ADB",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 83}, {238, 32}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "seg_cntrl_now_action",
+          "flex" : "RB",
+          "segments" : "Age Today|Age at Image",
+          "frame" : "{{118, 290}, {120, 29}}",
+          "class" : "SegmentedControl",
+          "uuid" : "A4FAFFA7-981B-459C-B4A1-6FC911ABDB27",
+          "name" : "seg_cntrl_now"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 171}, {239, 135}}",
+        "class" : "DatePicker",
+        "attributes" : {
+          "class" : "DatePicker",
+          "frame" : "{{18, 196}, {320, 216}}",
+          "action" : "datepicker_now_action",
+          "name" : "datepicker_now",
+          "mode" : 2,
+          "uuid" : "62507FA3-9932-42AD-86A3-9A260903A90F"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 43}, {336, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(0.681917,0.181845,0.181845,1.000000)",
+          "frame" : "{{103, 288}, {150, 32}}",
+          "uuid" : "939D3375-2109-4908-B4E6-9873571F04A4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Week: X, Month: Y, Year Z",
+          "name" : "label_age",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{179, 6}, {120, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "name" : "text_name",
+          "text_color" : "RGBA(0.682353,0.180392,0.180392,1.000000)",
+          "frame" : "{{78, 288}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "CBAD2B17-F039-4898-BDE1-D6B2E7BE47F3",
+          "alignment" : "left",
+          "text" : "<Name>",
+          "autocorrection_type" : "default",
+          "font_size" : 17,
+          "font_name" : "<System-Bold>"
         },
         "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 131}, {99, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(0.011910,0.357298,0.312248,1.000000)",
+          "frame" : "{{103, 288}, {150, 32}}",
+          "uuid" : "68E40AA1-72F6-4448-8EF8-124BF7AC2BEE",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "NOW:",
+          "name" : "label_now",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{6, 337}, {99, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text_color" : "RGBA(0.011765,0.356863,0.313726,1.000000)",
+          "frame" : "{{103, 288}, {150, 32}}",
+          "uuid" : "D738897A-A904-4A1D-8E4F-4C2D67CB1D0D",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "BIRTHDAY:",
+          "name" : "label_dob",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{112, 337}, {241, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label_dob_detail",
+          "text_color" : "RGBA(0.011765,0.356863,0.313726,1.000000)",
+          "frame" : "{{103, 288}, {150, 32}}",
+          "uuid" : "C4E91EF5-DB7B-473F-92E6-F60A863D6E27",
+          "class" : "Label",
+          "alignment" : "right",
+          "text" : "",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
       }
     ],
-    "frame" : "{{0, 0}, {356, 608}}",
+    "frame" : "{{0, 0}, {371, 610}}",
     "class" : "View",
     "attributes" : {
       "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "enabled" : true,
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
-      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "name" : "Baby Age Calculator",
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
       "flex" : ""
     },
     "selected" : false
