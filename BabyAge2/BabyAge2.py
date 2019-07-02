@@ -12,7 +12,7 @@ from PIL.ExifTags import TAGS
 
 # Customization: Add your names here
 class Names(Enum):
-	CHILD1 = 'CHILD1'
+	CHILD1 = 'Smilla'
 	CHILD2 = 'CHILD2'
 	CHILD3 = 'CHILD3'
 	

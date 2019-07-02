@@ -1,0 +1,156 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{13, 36}, {123, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "button_list_albums_action",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "List all Albums",
+          "uuid" : "D9B5081A-E1BF-471C-8DE1-E08AF9A5B796",
+          "class" : "Button",
+          "corner_radius" : 3,
+          "name" : "button_list_albums",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{13, 206}, {345, 184}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "font_name" : "<System>",
+          "editable" : false,
+          "frame" : "{{20, 20}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "uuid" : "6A85DD9B-A963-4FC0-9088-12356C529E33",
+          "class" : "TextView",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "textview_log",
+          "font_size" : 17
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{13, 84}, {123, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "button_count_albums_action",
+          "border_width" : 1,
+          "frame" : "{{80, 104}, {80, 32}}",
+          "title" : "Count all Albums",
+          "uuid" : "72C95B76-9796-4BFE-974B-B14CCE744F8E",
+          "class" : "Button",
+          "corner_radius" : 3,
+          "name" : "button_count_albums",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 0}, {237, 28}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "frame" : "{{45, 104}, {150, 32}}",
+          "uuid" : "A9464AFF-B9C4-4A53-B3D5-CD10235B8D94",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "iOS Photo Album Cleanup",
+          "name" : "label_title",
+          "font_name" : "<System-Bold>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{144, 36}, {193, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "6499AA60-F57D-4E93-9A2B-69D6C88A53D6",
+          "corner_radius" : 3,
+          "frame" : "{{82, 176}, {80, 32}}",
+          "tint_color" : "RGBA(0.552941,0.047059,0.047059,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.552941,0.047059,0.047059,1.000000)",
+          "title" : "Delete Albums (Dialog)",
+          "action" : "button_delete_albums_action",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button_delete_albums",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{13, 125}, {324, 73}}",
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 16,
+          "frame" : "{{47, 176}, {150, 32}}",
+          "tint_color" : "RGBA(0.028870,0.028870,0.346442,1.000000)",
+          "uuid" : "7552AE08-543A-41BA-8C6B-D2979B422F8B",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Note: Only empty albums will be considered for deletion!",
+          "name" : "label_empty_only",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{144, 84}, {193, 33}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "6499AA60-F57D-4E93-9A2B-69D6C88A53D6",
+          "corner_radius" : 3,
+          "frame" : "{{82, 176}, {80, 32}}",
+          "tint_color" : "RGBA(0.552941,0.047059,0.047059,1.000000)",
+          "border_width" : 1,
+          "border_color" : "RGBA(0.552941,0.047059,0.047059,1.000000)",
+          "title" : "Delete Albums (Batch) ",
+          "action" : "button_batch_delete_albums_action",
+          "font_bold" : true,
+          "class" : "Button",
+          "name" : "button_batch_delete_albums",
+          "font_size" : 15
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {364, 396}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
