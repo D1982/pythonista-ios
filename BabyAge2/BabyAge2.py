@@ -1,3 +1,7 @@
+from config import Names
+from config import Birthdays
+from config import Contexts
+
 import ui
 import datetime
 import clipboard
@@ -10,25 +14,6 @@ from PIL.ExifTags import TAGS
 
 
 
-# Customization: Add your names here
-class Names(Enum):
-	CHILD1 = 'Smilla'
-	CHILD2 = 'CHILD2'
-	CHILD3 = 'CHILD3'
-	
-	
-# Customization: Add your birthdays here
-class Birthdays(Enum):
-	CHILD1 = datetime.datetime(2017, 9, 8, 2, 44)
-	CHILD2 = datetime.datetime(1982, 10, 22, 7, 20)
-	CHILD3 = datetime.datetime(1986, 6, 9, 2, 42)
-	
-
-class Contexts(Enum):
-	TODAY = 'Today'
-	IMAGE = 'Image'
-
-	
 class BabyAge2:
 	CHILDREN = dict([(Names.CHILD1.value, Birthdays.CHILD1.value), (Names.CHILD2.value, Birthdays.CHILD2.value), (Names.CHILD3.value, Birthdays.CHILD3.value)])
 	
