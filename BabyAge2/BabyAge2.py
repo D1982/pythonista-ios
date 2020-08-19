@@ -137,11 +137,9 @@ class BabyAge2:
 		self._calc()
 		
 	def pick_image_action(self, sender):
-		albums = photos.get_smart_albums()
-		if albums:
-			for album in albums:
-				if album.title.lower() == 'camera roll':
-					assets = album			
+		a = photos.get_favorites_album()
+		if a:
+			assets = a.assets			
 			if assets:
 				asset = photos.pick_asset(assets = assets, title = 'Pick a photo ...')
 			else:
