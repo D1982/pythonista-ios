@@ -1,5 +1,8 @@
+"""This module provides utility functions to be used in Pythonista  on iOS"""
+
 import appex
 import photos
+
 import datetime
 
 from PIL import Image
@@ -46,7 +49,7 @@ def get_image_creation_date(self, images, index=0):
             a = get_exif(images[index])
         except AttributeError:
             print('AttributeError occured')
-            raiseNoEXIFDataError('get_exif(images[index])', 'No EXIF data was found')
+            raise Exception('No EXIF data was found')
         if a.get('DateTimeOriginal'):
             crdate = a.get('DateTimeOriginal')
             return datetime.datetime.strptime(crdate, '%Y:%m:%d %H:%M:%S')
