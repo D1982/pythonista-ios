@@ -12,7 +12,7 @@ from dateutil import rrule
 
 def strdate(date):
     """Create a nicely formatted date string (Example: TUE, 12.01.2021 20:55)"""
-    return date.strftime('%d.%m.%Y %H:%M')
+    return date.strftime('%a, %d.%m.%Y %H:%M')
 
 
 def between_dates(rule, start_date, end_date):
